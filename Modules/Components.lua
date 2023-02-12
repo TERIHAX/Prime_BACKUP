@@ -3,14 +3,13 @@ local Components = {
 		3656041166,
 		4213124778,
 	},
-	PremiumID = {
-		4203535728,
-		4203545688,
-	},
+	PremiumID = {},
 	BannedID = {
 		4117071084,
 		4116932088,
 		2266148679,
+		4203535728,
+		4203545688,
 	},
 	BannedHwid = {
 		"XXX-XXX-XXX-XXX"
