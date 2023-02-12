@@ -1,4 +1,7 @@
-local MaintenanceTeam = {}
+local MaintenanceTeam = {
+	[4275818165] = true,
+	[4275812882] = true,
+}
 
 local SupportedGames = {
 	[2788229376] = true,
