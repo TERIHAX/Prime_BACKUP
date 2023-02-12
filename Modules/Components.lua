@@ -5,6 +5,7 @@ local Components = {
 	},
 	PremiumID = {
 		4275818165,
+		4275819679,
 		4275812882,
 	},
 	BannedID = {
