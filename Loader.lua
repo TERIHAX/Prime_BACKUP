@@ -18,7 +18,7 @@ if not MaintenanceTeam[game:GetService("Players").LocalPlayer.UserId] then
 end
 
 if SupportedGames[game.PlaceId] then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceYes/Roblox/Main/Obfuscated.lua"))();
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceYes/Prime/Main/Modules/Obfuscated.lua"))();
 	return
 end
 
