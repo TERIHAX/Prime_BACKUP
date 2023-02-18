@@ -14,7 +14,7 @@ local Maintenance = true
 
 if not MaintenanceTeam[game:GetService("Players").LocalPlayer.UserId] then
 	if Maintenance ~= false then
-		game:GetService("Players").LocalPlayer:Kick("Prime is Currently on Maintenance [ Error Code : 0xA ]")
+		game:GetService("Players").LocalPlayer:Kick("Prime is Currently on Maintenance")
 		return
 	end
 end
@@ -24,4 +24,4 @@ if SupportedGames[game.PlaceId] then
 	return
 end
 
-game:GetService("Players").LocalPlayer:Kick("This Game is Currently Unsupported! [ Error Code : 0xB ]")
+game:GetService("Players").LocalPlayer:Kick("This Game is Currently Unsupported")
