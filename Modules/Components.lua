@@ -6,14 +6,15 @@ local Components = {
 	PremiumID = {
 		4275818165,
 		4275819679,
+		41351302,
 		4275812882,
 	},
 	BannedID = {
 		4117071084,
 		4116932088,
 		2266148679,
-		4203535728, -- // Da Hood Banned Alt
-		4203545688, -- // Da Hood Banned Alt
+		4203535728,
+		4203545688,
 	},
 	BannedHwid = {
 		"XXX-XXX-XXX-XXX"
