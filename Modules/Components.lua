@@ -16,9 +16,6 @@ local Components = {
 		4203535728,
 		4203545688,
 	},
-	BannedHwid = {
-		"XXX-XXX-XXX-XXX"
-	},
 	Developer = {
 		"UnrealCustoms, Space#3245",
 	},
