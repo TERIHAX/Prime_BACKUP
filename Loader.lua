@@ -10,18 +10,14 @@ local SupportedGames = {
 	[7213786345] = true,
 }
 
-local Maintenance = true
+local Maintenance = false
 
 if not MaintenanceTeam[game:GetService("Players").LocalPlayer.UserId] then
 	if Maintenance ~= false then
-		game:GetService("Players").LocalPlayer:Kick("Prime is Currently on Maintenance")
 		return
 	end
 end
 
 if SupportedGames[game.PlaceId] then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceYes/Prime/Main/Modules/Obfuscated.lua"))();
-	return
+	return loadstring(game:HttpGet("https://raw.githubusercontent.com/SpaceYes/Prime/Main/Modules/Obfuscated.lua"))();
 end
-
-game:GetService("Players").LocalPlayer:Kick("This Game is Currently Unsupported")
