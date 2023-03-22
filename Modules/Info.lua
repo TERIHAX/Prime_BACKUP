@@ -1,4 +1,4 @@
-local DataBaseInfo = {
+local DataBase = {
 	DevID = {
 		3656041166,
 		4213124778,
@@ -18,4 +18,4 @@ local DataBaseInfo = {
 	},
 }
 
-return DataBaseInfo
+return DataBase
